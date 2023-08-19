@@ -16,8 +16,8 @@ for new in tags:
 
 @app.get("/")
 def root():
-    return{"server is running"}
+    return{"Server is running"}
 
 @app.get("/news")
 def root():
-    return{f"Latest NEWS are {news} "}
+    return{f"Latest NEWS are {news}"}
